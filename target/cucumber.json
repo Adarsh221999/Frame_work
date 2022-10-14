@@ -1,0 +1,77 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-14T13:37:52.254Z",
+        "line": 5,
+        "name": "validation of login page",
+        "description": "",
+        "id": "login-feature;validation-of-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3733174000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to application url",
+            "match": {
+              "location": "com.steps.Com_Step_Deff.user_navigates_to_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1133464000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters usename and password",
+            "match": {
+              "location": "com.steps.Com_Step_Deff.user_enters_usename_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2829425500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks login button",
+            "match": {
+              "location": "com.steps.Com_Step_Deff.user_clicks_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginFeatures"
+          },
+          {
+            "name": "@loginValidation"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@loginFeatures",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
